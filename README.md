@@ -165,3 +165,73 @@ Weizheng Wang, Zhou Xie, Tieqiao Liu. MLC-Cute-Lock: A Sequential Logic Locking 
 
 Benchmark circuits: Public ISCAS'89 / ITC'99 sequential benchmark suites.
 Tool Sources: Open-source ABC logic synthesis tool, open-source KC2 sequential deobfuscation solver.
+
+# Appendix: Official Download Links for All Dependent Tools
+Add this section to the end of the English README you generated before.
+
+## 1. ABC Logic Synthesis Tool (Gate-level Netlist Processing)
+- Official GitHub Repository (Berkeley ABC):
+  https://github.com/berkeley-abc/abc
+- Quick one-click build script:
+  https://getabc.sh/
+- Official Documentation:
+  https://people.eecs.berkeley.edu/~alanmi/abc/abcman.pdf
+
+## 2. KC2 Sequential SAT Deobfuscation Solver
+- Original Paper Release Repository (University of Texas at Austin):
+  https://github.com/yierjin/KC2
+- Paper Reference (DATE 2019):
+  https://ieeexplore.ieee.org/document/8714820
+- Supplementary Benchmark & Tool Archive:
+  https://github.com/kavehshamsi/KC2_Attack
+
+## 3. Icarus Verilog (Verilog Simulation Engine)
+- Official GitHub Source Code:
+  https://github.com/steveicarus/iverilog
+- Official Homepage & Installation Guide:
+  https://steveicarus.github.io/iverilog/
+- Windows Prebuilt Binary (bundled with GTKWave):
+  http://bleyer.org/icarus/
+- FTP Source Archive:
+  ftp://ftp.icarus.com/pub/eda/verilog/
+
+## 4. GTKWave (VCD Waveform Viewer)
+- Official GitHub (New Main Repo):
+  https://gtkwave.github.io/gtkwave/
+- SourceForge Legacy Download Page:
+  https://gtkwave.sourceforge.net/
+- Official User Manual PDF:
+  https://gtkwave.sourceforge.net/gtkwave.pdf
+- macOS Homebrew Tap:
+  https://github.com/randomplum/homebrew-gtkwave
+
+## 5. ISCAS'89 & ITC'99 Standard Sequential Benchmark Circuits
+### ISCAS'89
+- TTU Verilog Source Mirror:
+  https://pld.ttu.ee/~maksim/benchmarks/iscas89/verilog/
+- USC SPORTlab Benchmark Database (.bench format):
+  https://sportlab.usc.edu/~msabrishami/benchmarks.html
+- NCSU Collaborative Benchmark Lab:
+  http://www.cbl.ncsu.edu/
+
+### ITC'99
+- Official UT Austin ITC'99 Homepage:
+  https://www.cerc.utexas.edu/itc99-benchmarks/bench.html
+- Full RTL & EDIF Archive:
+  https://www.cerc.utexas.edu/itc99-benchmarks/bendoc1.html
+
+## 6. Python 3 (Script Automation)
+- Official Download Page:
+  https://www.python.org/downloads/
+- Official Documentation:
+  https://docs.python.org/3/
+
+## 7. Synopsys Design Compiler (Optional, Hardware Overhead Evaluation)
+- Official Vendor Resource Page (Commercial Tool):
+  https://www.synopsys.com/tools/implementation/logic-synthesis/design-compiler.html
+
+## 8. Reference Paper of MLC-Cute-Lock
+- Original PDF (MLC-Cute-Lock Counter-Freezing Attack):
+  Attached `docs/MLC-CuteLock.pdf` in project folder
+- Cute-Lock Original Paper (DATE 2025):
+  https://ieeexplore.ieee.org/document/10887621
